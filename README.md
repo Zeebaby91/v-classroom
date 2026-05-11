@@ -27,18 +27,3 @@ src/
 ├── firebase.js      # Centralized Firebase SDK configuration
 └── App.jsx          # Root routing and global state
 
-## 📸 Gallery
-<details>
-  <summary>Click to view more screenshots</summary>
-
-  ### Authentication Flow
-  ![Login Screen](./screenshots/sign_in_page.JPG)
-  ![Login Screen](./screenshots/unauthorized_user.JPG)
-  ![Login Screen](./screenshots/home_page.JPG)
-
-  ### Session Filtering Logic in Action
-  ![Logic View](./screenshots/classroom_course_1)
-  ![Logic View](./screenshots/classroom_course_2)
-  ![Logic View](./screenshots/classroom_course_3)
-
-</details>
