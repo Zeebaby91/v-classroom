@@ -2,7 +2,7 @@
 
 V-Class is a high-performance, full-stack virtual classroom environment designed to bridge the gap between static content and live engagement. Built with a focus on real-time data synchronization and optimized user state management.
 
-## 🚀 Technical Features
+##  Technical Features
 
 *   **Intelligent Session Filtering**: Implements a "Soft-Clear" UI logic. Using a lazy-initialized session anchor, the application filters legacy database records from the view while maintaining a complete historical audit log in the backend.
 *   **Real-Time Presence Engine**: A robust attendance tracking system utilizing Firebase listeners to monitor and display unique active user counts.
@@ -10,7 +10,7 @@ V-Class is a high-performance, full-stack virtual classroom environment designed
 *   **Engagement Layer**: Real-time reaction broadcasting, administrative message pinning, and "Raise Hand" status toggling.
 *   **Responsive Media Interface**: A modular video delivery system with integrated loading states and dynamic source switching.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 *   **Frontend**: React.js (Vite)
 *   **Styling**: Tailwind CSS (Utility-first architecture)
@@ -26,3 +26,19 @@ src/
 ├── pages/           # View-level components (Classroom, Login)
 ├── firebase.js      # Centralized Firebase SDK configuration
 └── App.jsx          # Root routing and global state
+
+## 📸 Gallery
+<details>
+  <summary>Click to view more screenshots</summary>
+
+  ### Authentication Flow
+  ![Login Screen](./screenshots/sign_in_page.JPG)
+  ![Login Screen](./screenshots/unauthorized_user.JPG)
+  ![Login Screen](./screenshots/home_page.JPG)
+
+  ### Session Filtering Logic in Action
+  ![Logic View](./screenshots/classroom_course_1)
+  ![Logic View](./screenshots/classroom_course_2)
+  ![Logic View](./screenshots/classroom_course_3)
+
+</details>
